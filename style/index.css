@@ -53,6 +53,8 @@ html{
 
 body{
     margin:0 auto;
+    width:97%;
+    background-color: cornflowerblue;
 }
 
 header{
@@ -63,20 +65,25 @@ header{
 }
 
 header h1{
-    font-size:  4rem;
-    margin:2rem;
+    font-size:7rem;
+    margin:4rem;
 }
 
 header nav{
     display:flex;
-    margin:2rem;
+    margin:1rem 0 4rem 8rem;
 }
 
 header a{
-    padding:2rem 3rem;
+    padding:1.6rem 3rem;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background-color: black;
     color:white;
-    border:1px solid white;
+    border:0.2rem solid white;
+}
+
+section{
+    width:80%;
+    margin:0 auto;
 }
