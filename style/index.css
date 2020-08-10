@@ -199,6 +199,7 @@ footer {
     margin-bottom: 5%;
     padding: 5% 10%;
     background-color: #F13C20;
+    border:0.1rem solid black;
 }
 
 footer h4 {
@@ -333,6 +334,7 @@ footer a {
     }
     footer a{
         font-size:1.6rem;
+        padding:2%;
     }
 
 }
