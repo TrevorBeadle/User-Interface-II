@@ -45,157 +45,101 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    margin: 0 auto;
-    width: 100%;
-    background-color: #FBEEC1;
+body{
+    background-color: #EFE2BA;
 }
 
-.container {
-    width: 99%;
-    margin: 0 auto;
+.container{
+    width:95%;
+    background-color: #4056A1;
+    margin:0 auto;
 }
 
-header {
-    margin-bottom: 5rem;
-    border: 0.2rem solid black;
-    border-radius: 0 0 0.8rem 0.8rem;
-    border-top: 0;
+/*header styling*/
+header{
+    width:90%;
+    margin:3% auto;
+    padding:5rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #C5CBE3;
+    text-align:center;
+    border:0.1rem solid black;
+    border-radius: 0.8rem;
+}
+
+header h1{
+    font-size:5rem;
+    font-weight: bold;
+    margin-bottom:2%;
+}
+
+header nav{
+    width:50%;
+    margin: 1% auto;
     display: flex;
+    flex-direction:column;
+    font-size:2rem;
+    align-items:center;
+}
+
+header nav a{
+    width:100%;
+    margin:10% auto 0 auto;
+    padding:5%;
+    border:0.1rem solid black;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-color: #F13C20
+}
+
+/*about section styling*/
+#nameSection{
+    display:flex;
     flex-direction: column;
-    background-color: #659DBD;
+    margin:3% auto;
 }
 
-a:hover {
-    transform: scale(1.1);
-}
-
-header h1 {
-    font-size: 7rem;
-    margin: 4rem;
-}
-
-header nav {
-    display: flex;
-    padding: 1%;
-    background-color: #DAAD86;
-    border: 0.1rem solid black;
-}
-
-header a {
-    padding: 1.6rem 3rem;
-    margin: 0 0.1rem;
-    text-decoration: none;
-    font-size: 1.6rem;
-    background-color: black;
-    color: white;
-    border: 0.2rem solid white;
-}
-
-#nameSection {
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding-left: 5rem;
-    background-color: #659DBD;
-    margin-bottom: 8rem;
-    border: 0.2rem solid black;
+#nameSection img{
+    width:80%;
+    margin:0.5% auto;
+    padding:4%;
+    background-color:#EFE2BA;
+    border:0.1rem solid black;
     border-radius: 0.8rem;
 }
 
-#nameSection img {
-    width: 35%;
-    margin: 8rem 8rem 8rem 5rem;
-    padding: 1rem;
-    background-color: #DAAD86;
-    border: 0.1rem solid black;
-    border-radius: 50%;
-}
-
-#nameSection article {
-    margin: 3rem 30rem 3rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 2.6rem;
-}
-
-#nameSection h2 {
-    font-size: 5.6rem;
-    margin-bottom: 3rem;
-}
-
-#nameSection a {
-    padding: 1.6rem 3rem;
-    margin: 1rem 6rem 3rem 6rem;
-    text-decoration: none;
-    font-size: 1.6rem;
-    background-color: black;
-    color: white;
-    border: 0.2rem solid white;
-}
-
-#pictureSection {
-    font-size: 2.4rem;
-    background-color: #659DBD;
-    margin: 0 auto 15rem auto;
-    width: 90%;
-    border: 0.2rem solid black;
-    border-radius: 0.8rem;
-}
-
-#pictureSection img {
-    width: 85%;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: #DAAD86;
-    border: 0.1rem solid black;
-    border-radius: 0.8rem;
-}
-
-#pictureSection a {
-    text-decoration: none;
-}
-
-#topRow {
-    margin-bottom: 5rem;
-    padding-top: 5rem;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
-#bottomRow {
-    padding: 2rem 0 5rem 0;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-footer {
-    display: flex;
-    width: 99%;
+#nameSection article{
+    width:95%;
+    margin:2% auto;
+    padding:3%;
+    background-color: #C5CBE3;
+    display:flex;
     flex-direction: column;
     align-items: center;
-    border: 0.1rem solid black;
-    border-radius: 0.8rem 0.8rem 0 0;
-    border-bottom: 0;
-    background-color: #659DBD;
+    text-align:center;
+    border:0.1rem solid black;
+    border-radius: 0.8rem;
 }
 
-footer h4 {
-    font-size: 4rem;
-    margin: 5rem 0 5rem 0;
+#nameSection article h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2%;
 }
 
-footer a {
-    margin-bottom: 5rem;
+#nameSection article a{
+    width:35%;
+    margin:0 5% 5% 5%;
+    padding:2%;
+    border:0.1rem solid black;
+    border-radius: 0.5rem;
+    background-color:#F13C20;
+    font-size:1.4rem;
     text-decoration: none;
-    font-size: 1.6rem;
-    background-color: black;
-    color: white;
-    border: 0.2rem solid white;
-    padding: 1.6rem 3rem;
+}
+
+#nameSection article p{
+    font-size: 1.2rem;
 }
