@@ -44,7 +44,7 @@ table {
 
 *{
     box-sizing: border-box;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 html{
     font-size:62.5%;
@@ -57,7 +57,7 @@ body{
 }
 
 h1, h2, h3, h4{
-    font-size: 2.4rem;
+    font-size: 3rem;
     letter-spacing: 3px;
 }
 h1{
@@ -68,18 +68,51 @@ h1{
 a{
     text-decoration: none;
     color:#4f4f4f;
+    border:1px solid black;
+    padding:0.5rem;
+    font-size:1.6rem;
 }
 
+/*header styling*/
 header{
     display:flex;
     flex-direction: column;
     padding:2rem;
+    margin:0 5rem;
 }
 header nav{
     display:flex;
-    padding:1rem;
+    padding-left:3rem;
+    flex-wrap:wrap;
 }
-header nav a{
-    padding:0.3rem;
-    margin:1rem;
+
+/*name section styling*/
+#name{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    margin:3rem;
+}
+#name article{
+    width:50%;
+    margin:3rem;
+    padding:5rem;
+}
+#name article h2{
+    margin:3rem;
+}
+.link{
+    padding:0.5rem;
+    margin-bottom: 2rem;
+}
+.link a{
+    
+}
+.img-container{
+    width:45%;
+    margin:3rem;
+}
+.img-container img{
+    width:80%;
+    padding:2rem;
 }
